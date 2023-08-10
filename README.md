@@ -14,7 +14,7 @@ This application runs the backend for an E-commerce website. This uses express.j
 6. [Questions](#questions)
 ## Installation
 
-No dependencies
+run npm install
 
 ## Usage
 Acess the root of the folder and login to your mysql db using mysql -u root -p. Fill in your password and run the command source db/schema.sql, this will set up the database. From there exit the mysql shell and run npm run seed which will seed the database with preset information. From there run npn start and this will start the server. Using Insomnia go to http://localhost:3001/api/ and from there you will be able to make the calls to products, categories, producttags, and tags.
